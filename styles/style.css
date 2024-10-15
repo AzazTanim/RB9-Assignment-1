@@ -17,8 +17,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .nav-left p {
@@ -44,7 +44,6 @@ nav {
 .banner-container {
   width: 1480px;
   height: 652px;
-  border: 2px solid red;
   margin: 0 auto;
   /* margin-top: 20px; */
   background-image: url(../assets/Hero-bg.png);
@@ -83,4 +82,98 @@ nav {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+/* web development styles starts */
+.web-developer-container {
+  width: 1140px;
+  height: 1393px;
+  margin: 0 auto;
+  margin-top: 70px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 80px 97px 80px 97px;
+  gap: 10px;
+}
+.web-developer-text {
+  width: 946px;
+  height: 1233px;
+}
+.web-developer-text h4 {
+  width: 852px;
+  height: 37px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.web-developer-text p {
+  width: 852px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.dev-card {
+  width: 946px;
+  height: 336px;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.dev-card h5 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dev-card p {
+  width: 468px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.dev-card button {
+  width: 171px;
+  height: 47px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  gap: 10;
+  margin-top: 20px;
+}
+
+.dev-text {
+  width: 477px;
+  height: 219px;
+  gap: 32;
+  padding: 16px;
+}
+
+.dev-img {
+  width: 259.56px;
+  height: 217.01px;
+  margin-top: 20px;
 }
