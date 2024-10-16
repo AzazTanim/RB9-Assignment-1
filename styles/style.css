@@ -18,7 +18,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .nav-left p {
@@ -30,12 +30,14 @@ nav {
   text-align: left;
 }
 .nav-right button {
+  width: 244px;
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
   text-align: center;
   border-radius: 8px;
   border: 1px solid rgb(13, 19, 33);
+  padding: 16px;
 }
 
 /* banner section styles starts here */
@@ -197,17 +199,10 @@ nav {
 }
 .inspiration-content {
   width: 852px;
-  height: 37px;
-  display: flex;
-  gap: 24;
   margin: 0 auto;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
 }
 .inspiration-content h5 {
   width: 852px;
-  height: 37px;
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
@@ -218,7 +213,6 @@ nav {
 }
 .inspiration-content p {
   width: 852px;
-  height: 37px;
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
@@ -228,11 +222,7 @@ nav {
 }
 
 .video-container {
-  width: 1140px;
-  height: 614px;
-  gap: 10;
   padding: 32px;
-  box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
   margin-top: 48px;
@@ -241,4 +231,67 @@ nav {
   width: 1076px;
   height: 550px;
   border-radius: 16px;
+}
+/* current target styles starts here */
+.current-target-container {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.current-target-text {
+  width: 946px;
+  margin: 0 auto;
+}
+.current-target-text h5 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.current-target-text p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  gap: 24px;
+}
+
+.card {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+}
+.card h5 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.card p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.card a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+#img {
+  width: 39.68px;
+  margin-bottom: 24px;
 }
