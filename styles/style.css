@@ -365,3 +365,74 @@ nav {
   font-weight: 700;
   text-decoration-line: underline;
 }
+
+/* I need support styles starts */
+#support {
+  background: linear-gradient(
+      80deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 64px 48px;
+  text-align: center;
+  border-radius: 16px;
+  margin-top: 50px;
+}
+.support-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+.support-content h4 {
+  width: 292px;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.support-content p {
+  width: 606px;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.support-content input {
+  width: 548px;
+  gap: 10;
+  padding: 19px 20px 19px 20px;
+  gap: 10;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.support-content button {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
