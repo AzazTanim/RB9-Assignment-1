@@ -279,7 +279,6 @@ nav {
 }
 .card p {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -294,4 +293,75 @@ nav {
 #img {
   width: 39.68px;
   margin-bottom: 24px;
+}
+
+/* my next target styles here */
+.next-target-container {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.next-target-content {
+  width: 946px;
+  gap: 48;
+  margin: 0 auto;
+  align-items: center;
+  gap: 24px;
+}
+.next-target-content h5 {
+  width: 852px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.next-target-content p {
+  width: 852px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.target-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.target-card-container > .target-card {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 24px;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.target-card h5 {
+  width: 110px;
+  gap: 8;
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.target-card p {
+  width: 941.22px;
+  gap: 8;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.target-card a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
